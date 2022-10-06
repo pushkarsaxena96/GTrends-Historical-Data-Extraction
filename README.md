@@ -1,6 +1,6 @@
 # GTrends-Historical-Data-Extraction
 
-Extraction of the Keyword Google Trends Data using the Pytrends library.
+Extraction of the Keyword based Google Trends Data using the Pytrends library.
 
 Pytrends is an unofficial Google Trends API that provides different methods to download reports of trending results from google trends. The Python package can be used for automation of different processes such as quickly fetching data that can be used for more analyses later on. 
 
@@ -10,9 +10,9 @@ Pytrends is an unofficial Google Trends API that provides different methods to d
 
 ## Idea
 
-As  a Data Engineer, the use requires extraction of the Google Trends data for different keywords for a specific time span and exporting the same to CSV files.
+As  a Data Engineer, the use case requires extraction of the Google Trends data for different keywords for a specific time span and exporting the same to CSV files.
 
-This CSV can be further used for data visualization by the different reporting tools.
+This CSV can be further used for data analytics and visualization by the different reporting tools.
 
 The Script took 2 hours for completion.
 
@@ -38,7 +38,7 @@ After getting success with the baseline code, we introduced class and methods fo
 
 ## Future Work
 * Introduce Multi-threading for faster operations
-* Further, parallelize the code using the logics used for threads, for faster execution
+* Further, parallelize the code using the logics used for multi-threads, for faster execution
 * As per the use-case, introduce success and error logging for debugging and watching over the pipeline.
 
 ## Usage
